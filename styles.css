@@ -21,11 +21,22 @@ body {
     padding: 20px;
     display: flex;
     justify-content: space-around;
+
+      /* 
+    Challenge:
+    Add colors to the card according to the design.
+    black - #2b2839 (the text color)
+    blue - #ddebf8
+    purple - #d8cefe
+    */
+
+    background-color: #ddebf8;
+    color: #2b2839;
+    border-bottom: 10px solid #d8cefe;
+
 }
 
-.border-blue {
-    border: 1px dotted blue;
-}
+
 
 .text-center {
     text-align: center;
